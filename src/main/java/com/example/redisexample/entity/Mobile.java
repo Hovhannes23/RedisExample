@@ -11,8 +11,8 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@RedisHash("Product")
-public class Product implements Serializable {
+@RedisHash("Mobile")
+public class Mobile implements Serializable {
     @Id
     private int id;
     private String name;
